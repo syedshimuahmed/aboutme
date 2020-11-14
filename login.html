@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Member Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+   <!-----Start Header------->
+    <header>
+        <div class="header">
+           <div class="navBra">
+            <div class="container">
+                <div class="headWrapper">
+                    <div class="headLogo">
+                        <a href="index.html"><img src="image/download.webp" alt=""></a>
+                    </div>
+                    <div class="headItem">
+                        <ul>
+                            <li><a id="homeI" href="index.html">HOME</a></li>
+                            <li><a href="about.html">ABOUT</a></li>
+                            <li><a href="services.html">SERVICES</a></li>
+                            <li><a href="contact.html">CONTACT</a></li>
+                            <li><a href="login.html">LOG IN</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </header>
+   <!------End Header------>
+   
+    <div class="hero">
+        <div class="form-box">
+            <div class="button-box">
+               <div id="btn"></div>
+                <button type="button" class="toggle-btn" onClick="login()">Log In</button>
+                <button type="button" class="toggle-btn" onClick="register()">Register</button>
+            </div>
+            <div class="social-Icons">
+                <img src="image/fb.png" alt="">
+                <img src="image/gp.png" alt="">
+            </div>
+            <form id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="User Id" required>
+                <input type="password" class="input-field" placeholder="User Password" required>
+                <input type="checkbox" class="chech-box"><span id="rememberLog">Remember Password</span>
+                <button type="submit" class="submit-btn">Log In</button>
+            </form>
+            <form id="register" class="input-group">
+                <input type="text" class="input-field" placeholder="User Id" required>
+                <input type="email" class="input-field" placeholder="Enter Email" required>
+                <input type="password" class="input-field" placeholder="User Password" required>
+                <input type="checkbox" class="chech-box"><span id="rememberLog">I agree to the terms and conditions</span>
+                <button type="submit" class="submit-btn">Resigter</button>
+            </form>
+        </div>
+    </div>
+    
+    
+    <script>
+        var x = document.getElementById("login");
+        var y = document.getElementById("register");
+        var z = document.getElementById("btn");
+        function register(){
+            x.style.left = "-400px"
+            y.style.left = "50px"
+            z.style.left = "110px"
+        }
+        function login(){
+            x.style.left = "50px"
+            y.style.left = "450px"
+            z.style.left = "0px"
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
